@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_artifactdesc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0ebeb"
+    tools:context="com.example.hp.mody_task.ArtifactdescActivity">
+    <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_height="660dp">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ListView
+        android:layout_height="300dp"
+        android:id="@+id/artifactlist"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#e0ebeb"
+      />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/artifactlist"
+        android:id="@+id/layout"
+
+        android:orientation="horizontal">
+        <TextView
+            android:text="@string/desc_name"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_descart"
+            android:layout_marginTop="40dp"
+            android:textSize="27dp"
+            android:textStyle="italic"
+            android:layout_width="220dp" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="45dp"
+            android:id="@+id/muteimgdeart"
+            android:src="@drawable/mute"
+            android:layout_marginLeft="40dp"/>
+        <Button
+            android:id="@+id/btnn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/plus"
+            android:onClick="appear"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtviw11"
+        android:layout_below="@+id/layout"
+        android:textSize="0dp"
+        android:layout_marginTop="0px"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:visibility="invisible"
+        />
+</LinearLayout>
+    </ScrollView>
+    <android.support.v7.widget.ActionMenuView
+        android:id="@+id/bottom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp">
+    </android.support.v7.widget.ActionMenuView>
+
+</RelativeLayout>

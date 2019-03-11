@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MTG</string>
+    <string-array name="lang_values">
+        <item>English</item>
+        <item>Deutsche</item>
+    </string-array>
+    <string name="mail_text">Write Your E-mail</string>
+    <string name="mail_hint">Your E-mail</string>
+    <string name="lang_text">Your Language</string>
+    <string name="item_menu_change">Change Language</string>
+    <string name="item_menu_share">Share</string>
+    <string name="item_menu_rate">Rate</string>
+    <string name="item_menu_face">Facebook</string>
+    <string name="item_menu_insta">Instagram</string>
+    <string name="item_menu_twit">Twitter</string>
+    <string name="tourism_select">Select Tourism</string>
+    <string name="btn_start">Welcome To Egypt</string>
+    <string name="valid_text">Oops! Sorry No Match Result</string>
+    <string name="result_valid">Result</string>
+    <string name="valid_qr">Invalid QR</string>
+    <string name="scan_btn">Scan QR Code</string>
+    <string name="hint_searchview">Search For Artifacts</string>
+    <string name="museum_name">Museum Name</string>
+    <string name="desc_name">Brief Description</string>
+    <string name="valid_search">Please, Enter What Do You Want Search About!</string>
+    <string name="saux">MTG Application Video</string>
+    <string name="share">Choose One</string>
+    <string name="valid_fill_form">E-mail Address And Language Are Required</string>
+    <string name="valid_email">E-mail Is Invalid</string>
+    <string name="rate">Thanks For Rating</string>
+    <string name="item_menu_help">Help</string>
+    <string name="help_video">Play Video</string>
+    <string name="name_place">Name</string>
+    <string name="address_place">Address</string>
+    <string name="tour_place">Tourism</string>
+    <string name="desc_place">Description</string>
+    <string name="ticket_place">Ticket</string>
+    <string name="kind_place">Kind</string>
+    <string name="art_place">Artifact</string>
+    <string name="weather_type">Weather</string>
+    <string name="area">Area</string>
+    <string name="valid_connection">No Internet Connection Please Check Your Connection</string>
+    <string name="changeheader">Change Language</string>
+    <string name="helpheader">Help Video</string>
+    <string name="tourheader">Tourism Types</string>
+</resources>

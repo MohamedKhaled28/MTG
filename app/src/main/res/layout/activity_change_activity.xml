@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_change_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0ebeb"
+
+    tools:context="com.example.hp.mody_task.Change_activity">
+
+    <android.support.v7.widget.ActionMenuView
+        android:id="@+id/bottom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp">
+    </android.support.v7.widget.ActionMenuView>
+
+    <ImageView
+        android:background="@drawable/changg"
+        android:id="@+id/imagechange"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:layout_height="300dp" />
+
+    <Spinner
+        tools:textSize="30dp"
+        android:layout_width="match_parent"
+        android:id="@+id/spinner_change"
+        android:layout_above="@+id/bottom_toolbar"
+        android:layout_marginLeft="90dp"
+
+        android:background="#e0ebeb"
+
+        android:layout_marginBottom="150dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:text="@string/lang_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+        android:textStyle="italic"
+        android:id="@+id/txt"
+        android:layout_below="@+id/imagechange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+    <ImageView
+        android:layout_width="35dp"
+        app:srcCompat="@drawable/langicon"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:id="@+id/imageView7"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/spinner_change"
+        android:layout_toRightOf="@+id/txt"
+        android:layout_toEndOf="@+id/txt" />
+</RelativeLayout>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+    android:background="#e0ebeb"
+    android:layout_height="match_parent">
+    <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/imageView"
+            android:layout_height="300dp" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <TextView
+                    android:text="@string/address_place"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_address"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="60dp"
+                    android:textSize="27dp"
+                    android:textStyle="italic"/>
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/plus"
+                    android:layout_marginLeft="243dp"
+                    android:onClick="edit" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtviw5"
+
+                android:textSize="0dp"
+                android:visibility="invisible"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="120dp"
+                android:layout_marginTop="0dp"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <TextView
+                    android:text="@string/tour_place"
+                    android:layout_marginLeft="55dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tour_type"
+                    android:layout_marginTop="40dp"
+                    android:textSize="27dp"
+                    android:textStyle="italic"
+                    android:layout_below="@+id/txt_address"
+                    android:layout_width="140dp" />
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="210dp"
+                    android:background="@drawable/plus"
+                    android:onClick="edit1" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtviw6"
+                android:textSize="0dp"
+
+                android:layout_below="@+id/txtviw5"
+                android:gravity="center" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <TextView
+                    android:text="@string/desc_place"
+                    android:layout_marginLeft="55dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_desc"
+                    android:textStyle="italic"
+                    android:layout_marginTop="40dp"
+                    android:textSize="27dp"
+
+                    android:layout_width="180dp" />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="45dp"
+                    android:id="@+id/muteimgde"
+                    android:src="@drawable/mute"
+                    android:layout_marginLeft="65dp"/>
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="75dp"
+                    android:background="@drawable/plus"
+                    android:onClick="edit2" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtviw7"
+                android:textSize="0dp"
+
+
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <TextView
+                    android:text="@string/ticket_place"
+                    android:layout_marginLeft="55dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ticket"
+                    android:layout_marginTop="40dp"
+                    android:textSize="27dp"
+                    android:textStyle="italic"
+
+                    android:layout_width="130dp" />
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="220dp"
+                    android:background="@drawable/plus"
+                    android:onClick="edit3" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtviw8"
+                android:textSize="0dp"
+
+                android:layout_below="@+id/txtviw7"
+                android:gravity="center"
+
+                />
+            <!--  android:layout_margintop="35dp"-->/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <TextView
+                    android:text="@string/kind_place"
+                    android:layout_marginLeft="58dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/kind"
+                    android:layout_marginTop="40dp"
+                    android:textSize="27dp"
+                    android:textStyle="italic"
+
+                    android:layout_width="60dp" />
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="287dp"
+                    android:background="@drawable/plus"
+                    android:onClick="edit4" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtviw9"
+
+                android:textSize="0dp"
+                android:gravity="center"
+               />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <TextView
+                    android:text="@string/art_place"
+                    android:layout_marginLeft="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/artifact"
+                    android:layout_marginTop="40dp"
+                    android:textSize="27dp"
+                    android:textStyle="italic"
+
+                    android:layout_width="105dp" />
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="238dp"
+                    android:background="@drawable/plus"
+                     />
+            </LinearLayout>
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:id="@+id/rate_placee"
+
+
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/txtviw10"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                />
+        </LinearLayout>
+</ScrollView>
+        <android.support.v7.widget.ActionMenuView
+            android:id="@+id/bottom_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:elevation="4dp">
+
+        </android.support.v7.widget.ActionMenuView>
+    </RelativeLayout>
+

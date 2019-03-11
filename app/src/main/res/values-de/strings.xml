@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+        <string name="app_name">MTG</string>
+        <string-array name="lang_values">
+            <item>English</item>
+            <item>Deutsche</item>
+        </string-array>
+        <string name="mail_text">Geben Sie Ihre E-Mail-Adresse</string>
+        <string name="mail_hint">E-Mail</string>
+        <string name="lang_text">Ihre Sprache</string>
+        <string name="item_menu_change">Die Sprache ändern</string>
+    <string name="item_menu_share">Teil</string>
+    <string name="item_menu_rate">Preis</string>
+    <string name="item_menu_face">Facebook</string>
+    <string name="item_menu_insta">Instagram</string>
+    <string name="item_menu_twit">Twitter</string>
+    <string name="tourism_select">Tourismus gewählt</string>
+    <string name="btn_start">Willkommen in Ägypten</string>
+    <string name="valid_text">Ups! keine Ergebnisse</string>
+    <string name="result_valid">Ergebnisse</string>
+    <string name="valid_qr">Ungültiger QR.</string>
+    <string name="scan_btn">QR-Code scannen</string>
+    <string name="hint_searchview">Finden Artefakte</string>
+    <string name="museum_name">Name des Museums</string>
+    <string name="desc_name">Kurze Beschreibung</string>
+    <string name="valid_search">Bitte geben Sie ein, was Sie suchen wollen!</string>
+    <string name="saux">MTG Anwendungsvideo</string>
+    <string name="share">Wähle ein</string>
+    <string name="valid_fill_form">E-Mail-Adresse und Sprache sind erforderlich</string>
+    <string name="valid_email">E-Mail ist ungültig</string>
+    <string name="rate">Danke für die Bewertung</string>
+    <string name="item_menu_help">Hilfe</string>
+    <string name="help_video">Video abspielen</string>
+    <string name="name_place">Name :</string>
+    <string name="address_place">Adresse</string>
+    <string name="tour_place">Tourismus</string>
+    <string name="desc_place">Beschreibung</string>
+    <string name="ticket_place">Fahrkarte</string>
+    <string name="kind_place">Art</string>
+    <string name="art_place">Artefakt</string>
+    <string name="weather_type">Wetter</string>
+    <string name="area">Bereich</string>
+    <string name="valid_connection">Keine Verbindung zum Internet, überprüfen Sie bitte die Verbindung</string>
+    <string name="changeheader">Ändern Sprache</string>
+    <string name="helpheader">Hilfe Video</string>
+    <string name="tourheader">Tourismusarten</string>
+
+
+
+
+</resources>

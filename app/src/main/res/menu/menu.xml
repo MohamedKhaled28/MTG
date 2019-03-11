@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/item_menu_change" android:id="@+id/change"></item>
+    <item  android:title="@string/item_menu_share"  android:id="@+id/id_share" />
+    <item android:title="@string/item_menu_rate" android:id="@+id/rate_app"></item>
+    <item android:title="@string/item_menu_help" android:id="@+id/help"></item>
+    <item android:title="@string/item_menu_face"  android:id="@+id/face"  ></item>
+    <item android:title="@string/item_menu_insta"   android:id="@+id/insta"  ></item>
+    <item android:title="@string/item_menu_twit"  android:id="@+id/twit"  ></item>
+    <item android:icon="@drawable/mtg"
+        app:showAsAction="always"></item>
+
+
+
+</menu>

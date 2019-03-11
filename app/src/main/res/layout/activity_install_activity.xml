@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideOverlay">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.hp.mody_task.Install_activity">
+
+
+    <ImageView
+        android:background= "@drawable/login"
+        android:id="@+id/imageView3"
+
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="300dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="100"
+        android:id="@+id/Txt_mail"
+        android:inputType="textEmailAddress"
+        android:hint="@string/mail_hint"
+        tools:textSize="30dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#e0ebeb"
+        android:layout_marginTop="15dp" />
+
+    <Spinner
+        tools:textSize="30dp"
+        android:background="#e0ebeb"
+        android:layout_height="50dp"
+        android:id="@+id/spinner"
+        android:entries="@array/lang_values"
+        android:minHeight="60dp"
+        android:scrollbarSize="24dp"
+        tools:scrollbarSize="24dp"
+        android:layout_below="@+id/Txt_mail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_alignRight="@+id/Txt_mail"
+        android:layout_alignEnd="@+id/Txt_mail" />
+
+    <ImageView
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/iconm1"
+        android:id="@+id/imageView4"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignTop="@+id/Txt_mail"
+        android:layout_alignRight="@+id/Txt_mail"
+        android:layout_alignEnd="@+id/Txt_mail"
+        android:layout_width="35dp" />
+
+    <Button
+        android:text="Start"
+        android:textColor="#ffffff"
+        android:id="@+id/button"
+        android:onClick="Add_User"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="45dp"
+        android:layout_height="60dp" />
+
+    <ImageView
+        app:srcCompat="@drawable/langicon"
+        android:layout_above="@+id/button"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:id="@+id/imageView6"
+        android:layout_width="35dp"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
+</ScrollView>

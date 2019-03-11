@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_place"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0ebeb"
+    tools:context="com.example.hp.mody_task.PlaceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Pic"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="20dp"
+                android:gravity="start"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:text="Place"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Pla_nam"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="120dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Name"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Pla_rat"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="20dp"
+                android:gravity="end"
+                android:textSize="25sp"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:text="Rate" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/placelist"
+            android:layout_width="match_parent"
+            android:background="#e0ebeb"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="600dp">
+
+        </ListView>
+    </LinearLayout>
+
+    <android.support.v7.widget.ActionMenuView
+        android:id="@+id/bottom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:elevation="4dp">
+    </android.support.v7.widget.ActionMenuView>
+
+</RelativeLayout>

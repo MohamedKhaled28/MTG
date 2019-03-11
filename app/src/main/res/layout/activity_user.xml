@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0ebeb"
+    tools:context="com.example.hp.mody_task.UserActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@drawable/syaha"
+        android:layout_height="300dp" />
+
+    <ListView
+        android:id="@+id/lst"
+        android:choiceMode="singleChoice"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:background="#e0ebeb"
+
+        android:layout_height="350dp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.ActionMenuView
+        android:id="@+id/bottom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp">
+    </android.support.v7.widget.ActionMenuView>
+
+
+</RelativeLayout>
